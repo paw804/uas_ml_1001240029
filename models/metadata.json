@@ -1,0 +1,24 @@
+{
+    "best_model": "Random Forest",
+    "cv_r2_score": 0.8741383441712491,
+    "test_mae": 99006.8955748004,
+    "test_rmse": 214278.0558390166,
+    "test_r2": 0.9390061159892351,
+    "features": {
+        "numerical": [
+            "vehicle_age",
+            "km_driven",
+            "mileage",
+            "engine",
+            "max_power",
+            "seats"
+        ],
+        "categorical": [
+            "brand",
+            "model",
+            "seller_type",
+            "fuel_type",
+            "transmission_type"
+        ]
+    }
+}
